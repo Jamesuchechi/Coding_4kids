@@ -1,0 +1,69 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  max-width: 100%;
+  padding: 20px;
+  border: 3px dashed crimson;
+  border-radius: 10%;
+}
+
+.display-demo {
+  margin: 20px 0;
+}
+
+.block {
+  display: block;
+  background: lightblue;
+}
+
+.inline {
+  display: inline;
+  background: lightgreen;
+  /* Width and height don't work
+     like they do on block elements. */
+}
+
+.inline-block {
+  display: inline-block;
+  background: lightpink;
+  width: 110px;
+  height: 35px;
+}
+
+.hidden-demo {
+  margin: 20px 0;
+}
+
+.hidden-demo span {
+  display: inline-block;
+  padding: 8px;
+  background: #e2e8f0;
+}
+
+.invisible {
+  visibility: none;
+  /* Space remains reserved. */
+}
+
+.overflow-box {
+  width: 180px;
+  height: 65px;
+  border: 2px solid steelblue;
+  overflow: auto;
+  padding: 8px;
+}
+
+.action {
+  margin-top: 15px;
+  padding: 10px 16px;
+  border: 2px solid #2563eb;
+  border-radius: 999px;
+  background: #2563eb;
+  color: white;
+}
